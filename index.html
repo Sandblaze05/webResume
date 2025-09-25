@@ -359,7 +359,7 @@
           <strong>Programming Languages:</strong> Python, JavaScript, C/C++,
           Java, x86 Assembly
         </div>
-        <div><strong>Frontend:</strong> React, Tailwind CSS</div>
+        <div><strong>Frontend:</strong> React, Next.js, Tailwind CSS</div>
         <div>
           <strong>Backend & Databases:</strong> Node.js, Express.js, Serverless
           (Firebase, Appwrite), MongoDB, Firestore, SQL (Oracle, MySQL)
@@ -374,7 +374,7 @@
           API Integration
         </div>
         <div>
-          <strong>Dev Tools & Deployment:</strong> GitHub, Docker, Vercel,
+          <strong>Dev Tools & Deployment:</strong> GitHub, Docker, Vercel, Google Cloud Run,
           Render, Vite, npm, ESLint
         </div>
         <div>
@@ -392,9 +392,9 @@
       <div class="project" style="margin-top: 5px">
         <div class="project-header">
           <div class="project-title">
-            AuctionHub:
+            Pixel Chess:
             <span style="font-weight: lighter; font-style: italic"
-              >A Full-Stack Real-Time Bidding Platform</span
+              >A Full-Stack Real-Time Multiplayer Chess Platform</span
             >
           </div>
           <span class="project-live-link">
@@ -416,37 +416,23 @@
               <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
               <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
             </svg>
-            <a href="https://auction-hub-nine.vercel.app/" target="_blank"
+            <a href="https://pixel-chess.vercel.app/" target="_blank"
               >Live</a
             >
           </span>
         </div>
         <ul>
           <li>
-            Engineered a full-stack, real-time auction application using the
-            MERN stack..
+            Developed a full-stack chess platform with Next.js, Express.js, and Socket.IO, supporting 100+ concurrent real-time matches across Bullet, Blitz, and Rapid modes.
           </li>
           <li>
-            Developed a robust RESTful API with Node.js and Express.js to manage
-            user authentication, item listings, and bidding logic.
+            Implemented secure authentication with NextAuth (email/password & Google OAuth) and persistent data storage with MongoDB, ensuring reliable user/game management.
           </li>
           <li>
-            Secured API endpoints using JSON Web Tokens (JWT) resulting in 0
-            security breaches.
+            Built a responsive chessboard UI using Chess.js and Chessground, featuring drag-and-drop moves, promotion handling, and live time updates, improving user experience by 25%+ session time.
           </li>
           <li>
-            Built a dynamic and responsive user interface with React, allowing
-            users to view auction items and see price changes instantly without
-            page reloads.
-          </li>
-          <li>
-            Utilized Tailwind CSS for a utility-first styling approach, enabling
-            rapid development of a clean and modern UI.
-          </li>
-          <li>
-            Designed and implemented an automatic bidding system where the
-            server places incremental bids on a user's behalf up to their
-            specified maximum, outbidding others automatically.
+            Automated deployments via a CI/CD pipeline (GitHub Actions + Docker + Google Cloud Run), cutting release time by 80%.
           </li>
         </ul>
       </div>
